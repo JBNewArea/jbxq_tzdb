@@ -63,7 +63,6 @@ $(function () {
         ]
     };
     barChart.setOption(baroption);
-
     window.onresize = barChart.resize;
 
    

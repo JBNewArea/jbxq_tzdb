@@ -22,7 +22,7 @@
 	                     </div>
 					</div>	
 					<div class="portlet-body">
-                        <div class="echarts" id="echarts-${charttype}-chart"></div>
+                        <div class="echarts" id="echarts-${charttype}-chart" style="height:500px;"></div>
                     </div>
                 </div>
             </div>

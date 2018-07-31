@@ -27,6 +27,7 @@ public class EchartsController extends BaseController {
 		chatMap.put("pie", "饼状图");
 		chatMap.put("radar", "雷达图");
 		chatMap.put("scatter", "散点图");
+		chatMap.put("map", "地图");
 	}
 
 	/**
