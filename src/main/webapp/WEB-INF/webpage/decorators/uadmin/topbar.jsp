@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@include file="/WEB-INF/webpage/common/taglibs.jspf"%>
 <c:set var="menus" value="${fns:getMenuList()}" />
 <c:set var="currentMenu" value="${fns:getCurrentMenu()}" />
 <c:set var="pmenuids" value="${currentMenu.parentIds}" />

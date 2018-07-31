@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@include file="/WEB-INF/webpage/common/taglibs.jspf"%>
 <div class="navbar-container ace-save-state" id="navbar-container">
 	<!-- #section:basics/sidebar.mobile.toggle -->
 	<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">

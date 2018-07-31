@@ -63,6 +63,8 @@
 		<velocity.version>1.7</velocity.version>
 		<!-- JDK版本 -->
 		<jdk.version>1.8</jdk.version>
+		<!-- ueditor版本 -->
+		<ueditor.version>1.1.2</ueditor.version>
 		<!-- 强制编码 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -424,6 +426,11 @@
 			<version>${mysql.version}</version>
 			<type>jar</type>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+		    <groupId>cn.songxinqiang</groupId>
+		    <artifactId>com.baidu.ueditor</artifactId>
+		    <version>${ueditor.version}-offical</version>
 		</dependency>
   </dependencies>
   <repositories>

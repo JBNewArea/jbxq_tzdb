@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@include file="/WEB-INF/webpage/common/taglibs.jspf"%>
 <!--BEGIN SIDEBAR MENU-->
 <nav id="sidebar" role="navigation" class="navbar-default navbar-static-side">
     <div class="sidebar-collapse menu-scroll">

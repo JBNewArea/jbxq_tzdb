@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="/WEB-INF/webpage/common/taglibs.jspf"%>
 <li <c:if test="${currentMenu == null}">class="active"</c:if>><a href="${adminPath}"><i class="fa fa-tachometer fa-fw"><div class="icon-bg bg-orange"></div></i><span class="menu-title">控制台</span></a></li>
 <c:forEach items="${menus}" var="menu">
      <c:if test="${menu.parentId == null && menu.isshow eq '1'}">

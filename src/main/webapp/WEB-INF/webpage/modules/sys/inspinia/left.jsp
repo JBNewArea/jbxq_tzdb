@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@include file="/WEB-INF/webpage/common/taglibs.jspf"%>
 <!-- BEGIN SIDEBAR MENU -->
 <ul class="nav" id="side-menu">
 	<li class="nav-header">
